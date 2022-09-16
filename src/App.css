@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Nunito+Sans:wght@300;600;800&family=Open+Sans:wght@700&display=swap');
+
+.main{
+  padding-top: 2rem;
+  font-family: "Nunito Sans";
+}
+
+.container{
+  font-family: "Nunito Sans";
+  box-shadow: 0  2px 4px 2px rgba(0, 0, 0, 0.1);
+  
+
+}
+.moon{
+  padding-top: 4px;
+  padding-right: 10px;
+}
+.mode{
+  display: flex;
+}
+/* .full{
+  background:hsl(0, 0%, 98%);
+
+
+} */
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.container1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.cover{
+  padding: 50px;
+  background:hsl(0, 0%, 98%) ;
+  height: 100vh;
+}
+input[type="checkbox"]{
+  display: none;
+}
+
+button{
+  background: none;
+  border: none;
+}
+
+
+input[type="text"]{
+  padding-left: 10px;
+  border: none;
+  width: 20rem;
+  outline: none;
+}
+
+select{
+  padding-left: 15px;
+  padding-right:16px;
+  padding-top:12px;
+  padding-bottom:12px;
+  border-radius: 5px;
+  box-shadow: 0  2px 4px 2px rgba(0, 0, 0, 0.1);
+  width:10rem;
+  border: none;
+  outline: none;
+}
+.search{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right:100px;
+  background: white; 
+  border-radius: 5px;
+  box-shadow: 0  2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card{
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0  2px 4px 2px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  color: black;
+}
+.class::-webkit-input-placeholder {
+  color:'white';
+}
+.class::placeholder{
+  color: white;
+}
+.card-img img{
+width: 300px;
+height: 150px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.card-items,.card-title{
+margin-left: 7px;
+}
+
+.card-items{
+padding-bottom:4px;
+}
+
+.con_cards{
+  padding-top: 70px;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.non_class::placeholder{
+  color: black;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid #fff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+.bg-dark{
+  background: hsl(209, 23%, 22%) !important ;
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid rgb(10, 5, 5);
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
+.cooon{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  grid-template-rows: 1fr 1fr ;
+  overflow: auto;
+  padding-top: 80px;
+}
+.flage{
+  width: 400px;
+  height: 300px;
+  grid-row: 1/3;
+}
+.items{
+  grid-column: 2/5;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr;
+  padding-top: 30px;
+  padding-right: 50px; */
+}
+.border_country{
+  display: flex;
+  /* padding-left: 390px;
+  padding-bottom: 200px; */
+}
+
+.fist{
+  font-family: "Nunito Sans";
+  font-weight: bold;
+}
+.border{
+  padding-left: 30px;
+}
+.first_one{
+  grid-column: 2/3;
+  font-family: "Nunito Sans";
+
+}
+.secound_one{
+  grid-column: 3/4;
+  grid-row:1/3;
+  line-height: 1.5;
+  padding-top: 60px;
+  position: relative;
+  font-family: "Nunito Sans";
+
+}
+.border-list{
+  display: flex;
+  list-style-type: none;
+  font-family: "Nunito Sans";
+  
+}
+.border-list li{
+  margin-left: 10px;
+}
+.back{
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-around; */
+  gap: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  align-items: center;
+  width: 90px;
+  height: 40px;
+  font-family: "Nunito Sans";
+  border-radius: 5px;
+  margin: 10px;
+  color: black;
+  box-shadow: 0  2px 4px 2px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+.backe{
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-around; */
+  gap: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  align-items: center;
+  width: 60px;
+  height: 30px;
+  font-family: "Nunito Sans";
+  border-radius: 2px;
+  margin: 10px;
+  color: black;
+  box-shadow: 0  2px 4px 2px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+a{
+ text-decoration: none;
+ color: black; 
+}
+
+.Sub_Region{
+  display: flex;
+}
+
+/* .lab{
+  padding-right:30px ;
+} */
+
+.border{
+  display: flex;
+}
+.currency{
+  display: flex;
+  align-items: center;
+}
+.languages{
+  display: flex;
+  align-items: center;
+}
+.population{
+  display: flex;
+}
+.Region{
+  display: flex;
+}
+.sub_region{
+  display: flex;
+}
+.capital{
+  display: flex;
+}
+.border{
+  grid-row: 2/5;
+  grid-column: 2/5;
+  display: flex;
+  align-items:center;
+}
+.lang{
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 575px){
+  .con_cards{
+    grid-template-columns: 1fr;
+  }
+   .container1{
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding: 0;
+      margin: 0;
+  }
+  .search{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .container{
+    padding:0;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .cooon{
+    grid-template-columns: 1fr;
+  }
+  .items{
+    grid-template-columns: 1fr;
+  }
+  .lang{
+    display: flex;
+  }
+  select{
+    margin-top: 20px;
+    margin-right: 200px;
+  }
+  .cover{
+    align-items: center;
+    align-content: center;
+  }
+  .flage{
+    grid-column: 1/3;
+    width: 320px;
+    height: 270px;
+  }
+  .first_one{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    place-items: center;
+    place-content: center;
+  }
+  
+  .secound_one{
+    grid-row:4/5;
+    grid-column: 1/2;
+    place-items: center;
+    place-content: center;
+  }
+  .border{
+    grid-row: 5/6;
+    grid-column: 1/2;
+    place-content: center;
+    place-items: start;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+  
